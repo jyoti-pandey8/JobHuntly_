@@ -24,3 +24,36 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@import "tailwindcss";
+
+.bg-custom-indigo {
+    background-color: #4640DE;
+  }
+  
+  .text-custom-indigo {
+    color: #4640DE;
+  }
+
+  .bg-custom-blue {
+    background-color: #26A4FF;
+  }
+  
+  .text-custom-blue {
+    color: #26A4FF;
+  }
+  
+.scroll-hide::-webkit-scrollbar{
+       display: none;
+}
+
+  .bg-home {
+    background-color:  #F8F8FD;
+  }
+ 
+
+  .search-bar-layer {
+    z-index: 0;
+    position: relative;
+  }
+
