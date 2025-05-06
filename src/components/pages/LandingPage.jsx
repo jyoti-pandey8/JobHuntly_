@@ -272,7 +272,7 @@ const LandingPageComponent = () => {
         <div className="px-2 py-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 lg:text-[20px] md:text-[16px] text-[14px] text-gray-400">
           <p>Companies we helped grow.</p>
         </div>
-        <div className="grid grid-cols-5 gap-4  px-2 py-1 lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] ">
+        <div className="grid grid-cols-5 gap-4 mb-15  px-2 py-1 lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] ">
           <div className="bg-gray-100 rounded-lg  ">
             <Image
               src="/image/home/explore/vodafone.png"
@@ -322,8 +322,8 @@ const LandingPageComponent = () => {
       </div>
 
       {/* ExploreCard  */}
-
-      <div className="flex flex-row justify-between items-center px-8  lg:-my-40 md:-my-40 lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen bg-gray-100 bg-home">
+      {/* -my-60 -mt-65 */}
+      <div className="flex flex-row justify-between items-center px-8 -my-60 -mt-65  lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen bg-gray-100 bg-home">
         <div>
           <h3 className="lg:text-[50px] md:text-[text-40] text-20px font-semibold">
             Explore by <span className="text-blue-600">category</span>
