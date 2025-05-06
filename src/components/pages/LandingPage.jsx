@@ -246,8 +246,8 @@ const LandingPageComponent = () => {
             />
           </div>
 
-          <div className="flex items-center space-x-2 w-full justify-start md:justify-center md:w-auto pl-4">
-            <i className="ri-map-pin-line text-gray-400 w-6 h-6 ri-xl"></i>
+          <div className="flex items-center space-x-2 w-full justify-start md:justify-center md:w-auto pl-1">
+            <i className="ri-map-pin-line text-gray-400 w-6 h-6 ri-xl right-5"></i>
             <span className="text-gray-800  lg:text-[20px] md:text-auto text-[14px] ">
               Delhi
             </span>
@@ -267,10 +267,11 @@ const LandingPageComponent = () => {
       </div>
 
       {/* explore section */}
-
+      <p className="-mt-15 lg:-mt-1 md:-mt-1 px-8 lg:px-20 md:20 mb-5 lg:mb-0 md:mb-0 text-gray-500 text-14px lg:text-[20px] md:text-[20px]">Companies we helped grow.</p>
       <div className="overflow-x-auto scroll-hide -mt-15 lg:mt-1 md:mt-1 lg:py-6 md:py-6">
+      
         <div className="px-2 py-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 lg:text-[20px] md:text-[16px] text-[14px] text-gray-400">
-          <p>Companies we helped grow.</p>
+         
         </div>
         <div className="grid grid-cols-5 gap-4 mb-15  px-2 py-1 lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] ">
           <div className="bg-gray-100 rounded-lg  ">
@@ -325,7 +326,7 @@ const LandingPageComponent = () => {
       {/* -my-60 -mt-65 */}
       <div className="flex flex-row justify-between items-center px-8 -my-60 -mt-65  lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen bg-gray-100 bg-home">
         <div>
-          <h3 className="lg:text-[50px] md:text-[text-40] text-20px font-semibold">
+          <h3 className="lg:text-[50px] md:text-[text-40] text-[18px]">
             Explore by <span className="text-blue-600">category</span>
           </h3>
         </div>
@@ -375,7 +376,7 @@ const LandingPageComponent = () => {
       {/* feature */}
 
       <div className="flex flex-row justify-between items-center px-8 -my-60 -mt-65 md:-mt-50  lg:-mt-50 lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen 8">
-        <h3 className=" lg:text-[50px] md:text-[text-40] text-20px font-semibold">
+        <h3 className=" lg:text-[50px] md:text-[text-40]  text-[18px]">
           Featured <span className="text-blue-600">jobs</span>
         </h3>
         <div className="lg:text-[18px] md:text-[text-18px] text-14px flex items-center font-bold text-custom-indigo cursor-pointer pr-4 md:pr-10 lg:pr-20">
@@ -410,7 +411,7 @@ const LandingPageComponent = () => {
 
       <div className="flex flex-row justify-between items-center px-8 -my-60 lg:px-10 lg:mx-10 md:mx-10 md:px-10  h-screen bg-gray-100 bg-home">
         <div>
-          <h3 className="lg:text-[50px] md:text-[text-40] text-20px  font-semibold">
+          <h3 className="lg:text-[50px] md:text-[text-40] text-[18px]  ">
             Latest <span className="text-blue-600">jobs open </span>
           </h3>
         </div>

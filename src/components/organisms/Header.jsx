@@ -43,7 +43,7 @@ import { Menu, X, } from 'lucide-react';
 </a>
 
         <div className="h-12 w-px bg-gray-200" />
-        <button className="font-bold bg-custom-indigo text-white px-6 py-4 text-[17px]">
+        <button className="font-bold bg-custom-indigo text-white px-6 py-3 text-[17px]">
           Sign Up
         </button> 
       </div>
