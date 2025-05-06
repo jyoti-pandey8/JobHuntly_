@@ -2,7 +2,7 @@
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="bg-[#202430] text-white px-5 py-15 lg:px-20 md:px-20">
+    <footer className="bg-[#202430] text-white px-5 py-20 lg:px-20 md:px-20">
       <div className="max-w-7xl mx-auto space-y-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
@@ -14,18 +14,16 @@ export default function Footer() {
                            width={24}
                            height={24}
                          />
-              <h2 className="text-xl font-semibold">JobHuntly</h2>
+              <h2 className=" font-semibold text-[26px]">JobHuntly</h2>
             </div>
-            <p className="text-sm text-gray-400">
-              We are a leading firm in the tech industry providing excellent
-              services and innovative solutions across the globe with a passion
-              for quality.
+            <p className="text-sm text-gray-400 text-[14px] lg:text-[16px] md:[text-[16px] ">
+             Great platform for job seekers and employers to connect. We provide a seamless experience for job searching and hiring.
             </p>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">About</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <h3 className="text-gray-100 mb-4 text-[16px] lg:text-[22px] md:[text-[22px]">About</h3>
+            <ul className="space-y-2 text-sm text-gray-400 text-[14px] lg:text-[18px] md:[text-[18px] md:leading-[2] lg:leading-[2]">
               <li>Our Story</li>
               <li>Team</li>
               <li>Careers</li>
@@ -35,8 +33,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <h3 className="text-gray-100 mb-4 text-[16px] lg:text-[22px] md:[text-[22px]">Resources</h3>
+            <ul className="space-y-2 text-sm text-gray-400 text-[14px] lg:text-[18px] md:[text-[18px] md:leading-[2] lg:leading-[2]">
               <li>Docs</li>
               <li>Support</li>
               <li>API</li>
@@ -45,10 +43,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-gray-400">
+            <h3 className=" mb-4 text-gray-100 text-[16px] lg:text-[22px] md:[text-[22px]">
               Get Job Notifications
             </h3>
-            <p className="text-sm mb-4 text-gray-400">
+            <p className="text-sm mb-4 text-gray-400 text-[14px] lg:text-[18px] md:[text-[18px]">
               Stay updated with the latest job openings and career opportunities
               by subscribing below.
             </p>
@@ -56,9 +54,9 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Email Address"
-                className="bg-white text-gray-700 px-6 py-2 outline-none w-full"
+                className="bg-white text-gray-700 px-8 py-2 outline-none w-full"
               />
-              <button className="bg-blue-600 text-white px-2 py-2">
+              <button className="bg-blue-600 text-white px-5 py-3 text-[14px] lg:text-[16px] md:[16px] font-bold">
                 Subscribe
               </button>
             </div>
@@ -69,7 +67,7 @@ export default function Footer() {
         <hr className="border-white" />
 
         <div className=" -my-6 flex flex-col md:flex-row justify-between items-center ">
-  <p className="text-sm text-gray-400 mb-4 md:mb-0">
+  <p className="text-gray-400 text-[14px] lg:text-[18px] md:[text-[18px] mb-4 md:mb-0">
     © 2025 All rights reserved by CompanyName
   </p>
   <div className="flex space-x-4">

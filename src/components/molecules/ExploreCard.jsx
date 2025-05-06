@@ -10,13 +10,13 @@ function ExploreCard({ iconTop, heading, paragraph, iconRight, jobs }) {
       
 
       </div>
-      <h2 className="text-left text-2xl font-semibold group-hover:text-white">
+      <h2 className="text-left mt-5 text-2xl font-semibold text-gray-800 group-hover:text-white">
         {heading}
       </h2>
 
       <div className="mt-4 flex justify-between items-start">
-        <p className="text-sm text-gray-400 font-semibold group-hover:text-white">
-          {jobs} jobs available         <i className={`${iconRight} ri-lg text-black group-hover:text-white`}></i>
+        <p className="text-14px lg:text-[20px] md:text-[18px] text-gray-400  group-hover:text-white">
+          {jobs} jobs available         <i className={`${iconRight} ri-lg text-gray-600 ri-xl group-hover:text-white`}></i>
 
         </p>
       </div>

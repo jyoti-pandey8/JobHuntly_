@@ -14,18 +14,10 @@ function Feature({
   rightButtonText,
 }) {
   return (
-    <div className="group p-5 pl-4 bg-white shadow transition duration-300 hover:bg-[#4640DE]">
+    <div className="group p-5 pl-4 bg-white shadow transition duration-300 hover:bg-[#4640DE] ">
       <div className="flex justify-between items-center">
         <img src={imageSrc} alt="Top Image" className="object-cover rounded-md" />
-        {/* <Image 
-  src={imageSrc} 
-  alt="Top Image" 
-  className="object-cover rounded-md"
-  width={500} // you must define width
-  height={300} // you must define height
-/> */}
-
-        <button className="border border-blue-600 bg-white px-4 py-2  text-blue-600 ">
+        <button className="border border-blue-600 bg-white px-4 py-2  text-blue-600">
           {topButtonText}
         </button>
       </div>

@@ -21,11 +21,11 @@ function LatestJobs({
     />
     {/* Right: All content */}
     <div className="flex-1 text-left space-y-4">
-      <h2 className="text-xl font-semibold text-black group-hover:text-white">
+      <h2 className="text-xl font-semibold text-gray-700 group-hover:text-white">
         {headingText}
       </h2>
   
-      <p className="flex justify-start items-center text-gray-600 group-hover:text-white">
+      <p className="flex justify-start items-center text-gray-600 text-[14px] lg:text-[17px] md:text-[17px] group-hover:text-white">
         <span>{paragraphOnePart1}</span>
         <span className="inline-block mx-2 w-1 h-1 bg-[#515B6F] rounded-full" />
         <span>{paragraphOnePart2}</span>
@@ -36,34 +36,15 @@ function LatestJobs({
         <p className="text-gray-600 group-hover:text-white">{paragraphTwoLine2}</p>
       </div>
   
-      {/* Buttons - unaffected by group hover */}
-   {/* Buttons - responsive, small, and fit-content */}
-   {/* <div className="flex flex-row flex-wrap justify-start gap-y-2 gap-x-0 sm:flex-nowrap sm:gap-x-3 sm:gap-y-0">
-  <button
-    className="w-1/2 sm:w-fit px-3 py-1 text-sm rounded-full border border-yellow-500 bg-gray-200 text-yellow-500 hover:bg-yellow-500 hover:text-white"
-  >
-    {leftButtonText}
-  </button>
-  <button
-    className="w-1/2 sm:w-fit px-3 py-1 text-sm rounded-full border border-green-600 bg-gray-200 text-green-600 hover:bg-green-600 hover:text-white"
-  >
+<div className="flex flex-col sm:flex-row sm:space-x-3 space-y-2 sm:space-y-0 justify-start font-bold">
+<button className="px-4 py-2 text-sm rounded-full  bg-gray-200 text-green-600 hover:bg-green-600 hover:text-white w-fit">
     {middleButtonText}
   </button>
-  
-  <button
-    className="w-full sm:w-fit px-3 py-1 text-sm rounded-full border border-indigo-600 bg-gray-200 text-indigo-600 hover:bg-indigo-600 hover:text-white"
-  >
-    {rightButtonText}
-  </button>
-</div> */}
-<div className="flex flex-col sm:flex-row sm:space-x-3 space-y-2 sm:space-y-0 justify-start">
-  <button className="px-3 py-1 text-sm rounded-full border border-yellow-500 bg-gray-200 text-yellow-500 hover:bg-yellow-500 hover:text-white w-fit">
+  <div className="h-10 w-px bg-gray-300" />
+  <button className="px-4 py-2 text-sm rounded-full border border-yellow-500 bg-gray-200 text-yellow-500 hover:bg-yellow-500 hover:text-white w-fit">
     {leftButtonText}
   </button>
-  <button className="px-3 py-1 text-sm rounded-full border border-green-600 bg-gray-200 text-green-600 hover:bg-green-600 hover:text-white w-fit">
-    {middleButtonText}
-  </button>
-  <button className="px-3 py-1 text-sm rounded-full border border-indigo-600 bg-gray-200 text-indigo-600 hover:bg-indigo-600 hover:text-white w-fit">
+  <button className="px-4 py-2 text-sm rounded-full border border-indigo-600 bg-gray-200 text-indigo-600 hover:bg-indigo-600 hover:text-white w-fit">
     {rightButtonText}
   </button>
 </div>

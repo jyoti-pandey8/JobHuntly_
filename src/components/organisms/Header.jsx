@@ -17,13 +17,13 @@ import { Menu, X, } from 'lucide-react';
             width={24}
             height={24}
           />
-          <span className="text-[24px] font-semibold">JobHuntly</span>
+          <span className="text-[26px] font-semibold">JobHuntly</span>
         </div>
         <div className="hidden md:flex space-x-6 pl-6 text-sm font-medium">
-        <Link href="/findjob" className="text-gray-800 hover:text-blue-600">
+        <Link href="/findjob" className="text-gray-500 hover:text-blue-600 text-[17px] font-bold ">
             Find Jobs
             </Link>
-          <a href="#" className="text-gray-800 hover:text-blue-600">
+          <a href="#" className="text-gray-500  hover:text-blue-600 text-[17px] font-bold">
             Browse Companies
           </a>
         </div>
@@ -38,13 +38,14 @@ import { Menu, X, } from 'lucide-react';
 
       {/* Desktop Right Section */}
       <div className="hidden md:flex items-center space-x-4 text-sm font-medium">
-        <a href="#" className="text-custom-indigo hover:underline">
-          Login
-        </a>
-        <div className="h-9 w-px bg-black" />
-        <button className="bg-custom-indigo text-white px-4 py-2 text-[16px]">
+      <a href="#" className="text-custom-indigo hover:underline font-bold text-[16px]">
+  Login
+</a>
+
+        <div className="h-12 w-px bg-gray-200" />
+        <button className="font-bold bg-custom-indigo text-white px-6 py-4 text-[17px]">
           Sign Up
-        </button>
+        </button> 
       </div>
 
       {/* Mobile Menu with smooth transition */}
