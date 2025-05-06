@@ -213,7 +213,7 @@ const LandingPageComponent = () => {
   return (
     <>
       <HomeHeader />
-      <div className="flex flex-col items-left   px-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 py-10 mt-10  justify-top h-screen bg-gray-100 bg-home">
+      <div className="flex flex-col items-left   px-8  lg:px-20 md:px-10  py-10  justify-top h-screen bg-gray-100 bg-home">
         <h1 className="lg:text-[70px] text-[35px] font-semibold leading-[1.05] mb-0">
           Discover
           <br /> more than <br />

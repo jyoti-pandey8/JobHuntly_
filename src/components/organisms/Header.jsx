@@ -7,7 +7,7 @@ import { Menu, X, } from 'lucide-react';
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-100 px-4 py-2 md:px-20 flex items-center justify-between bg-home relative">
+    <nav className="bg-gray-100 px-4 pt-2 md:px-20 flex items-center justify-between bg-home relative">
       <div className="flex items-center space-x-8">
         <div className="flex items-center space-x-2">
           <Image
@@ -52,9 +52,10 @@ import { Menu, X, } from 'lucide-react';
       <div
         className={`absolute top-full left-0 w-full bg-gray-100 flex flex-col space-y-4 p-4 md:hidden z-10 text-sm font-medium transform origin-top transition-all duration-300 ease-in-out ${isOpen ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0 pointer-events-none'}`}
       >
-        <a href="#" className="text-gray-800 hover:text-blue-600">
-          Find Jobs
-        </a>
+       
+        <Link href="/findjob" className="text-gray-500 hover:text-blue-600 text-[17px] font-bold ">
+            Find Jobs
+            </Link>
         <a href="#" className="text-gray-800 hover:text-blue-600">
           Browse Companies
         </a>
