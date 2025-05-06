@@ -1,5 +1,5 @@
 "use client";
-
+import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
 import { Menu, X, } from 'lucide-react';
@@ -20,9 +20,9 @@ import { Menu, X, } from 'lucide-react';
           <span className="text-[24px] font-semibold">JobHuntly</span>
         </div>
         <div className="hidden md:flex space-x-6 pl-6 text-sm font-medium">
-          <a href="#" className="text-gray-800 hover:text-blue-600">
+        <Link href="/findjob" className="text-gray-800 hover:text-blue-600">
             Find Jobs
-          </a>
+            </Link>
           <a href="#" className="text-gray-800 hover:text-blue-600">
             Browse Companies
           </a>

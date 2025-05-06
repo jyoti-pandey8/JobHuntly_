@@ -5,11 +5,6 @@ import Image from 'next/image';
 import ExploreCard from '../molecules/ExploreCard';
 import Feature from '../molecules/FeatureCard';
 import LatestJobs from '../molecules/LatestCard';
-// import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-  
-
 
 const exploreData = [
   { heading: "Design", jobs: 235 },
@@ -28,21 +23,32 @@ const jobs = [
     headingText: "Email Marketing",
     paragraphOnePart1: "Revolut",
     paragraphOnePart2: "Madrid, Spain",
-    paragraphTwoLine1: "Revolut is looking for Email",
+    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Marketing to help team ma ...",
     leftButtonText: "Marketing",
     rightButtonText: "Design",
   },
+  // {
+  //   imageSrc: "/image/home/featurejob/Dropbox.png",
+  //   topButtonText: "Full Time",
+  //   headingText: "Brand Designer",
+  //   paragraphOnePart1: "Dropbox",
+  //   paragraphOnePart2: "San Fransisco, US",
+  //   paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
+  //   paragraphTwoLine2: "Business Development openings",
+  //   leftButtonText: "Marketing",
+  //   rightButtonText: "Business",
+  // },
   {
-    imageSrc: "/image/home/featurejob/Dropbox.png",
+    imageSrc: "/image/home/featurejob/pitch.png",
     topButtonText: "Full Time",
-    headingText: "Brand Designer",
-    paragraphOnePart1: "Dropbox",
-    paragraphOnePart2: "San Fransisco, US",
+    headingText: "Sales",
+    paragraphOnePart1: "Revolut",
+    paragraphOnePart2: "Madrid, Spain",
     paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Business Development openings",
-    leftButtonText: "gn",
-    rightButtonText: "Business",
+    leftButtonText: "View Jobs",
+    rightButtonText: "Learn More",
   },
   {
     imageSrc: "/image/home/featurejob/pitch.png",
@@ -50,21 +56,21 @@ const jobs = [
     headingText: "Sales",
     paragraphOnePart1: "Revolut",
     paragraphOnePart2: "Madrid, Spain",
-    paragraphTwoLine1: "Account Executive roles",
+    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Business Development openings",
     leftButtonText: "View Jobs",
     rightButtonText: "Learn More",
   },
   {
-    imageSrc: "/image/home/featurejob/Dropbox.png",
+    imageSrc: "/image/home/featurejob/pitch.png",
     topButtonText: "Full Time",
-    headingText: "Brand Designer",
-    paragraphOnePart1: "Dropbox",
-    paragraphOnePart2: "San Fransisco, US",
+    headingText: "Sales",
+    paragraphOnePart1: "Revolut",
+    paragraphOnePart2: "Madrid, Spain",
     paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Business Development openings",
-    leftButtonText: "gn",
-    rightButtonText: "Business",
+    leftButtonText: "View Jobs",
+    rightButtonText: "Learn More",
   },
   {
     imageSrc: "/image/home/featurejob/R.png",
@@ -72,21 +78,10 @@ const jobs = [
     headingText: "Email Marketing",
     paragraphOnePart1: "Revolut",
     paragraphOnePart2: "Madrid, Spain",
-    paragraphTwoLine1: "Revolut is looking for Email",
+    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Marketing to help team ma ...",
     leftButtonText: "Marketing",
     rightButtonText: "Design",
-  },
-  {
-    imageSrc: "/image/home/featurejob/Dropbox.png",
-    topButtonText: "Full Time",
-    headingText: "Brand Designer",
-    paragraphOnePart1: "Dropbox",
-    paragraphOnePart2: "San Fransisco, US",
-    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
-    paragraphTwoLine2: "Business Development openings",
-    leftButtonText: "gn",
-    rightButtonText: "Business",
   },
   {
     imageSrc: "/image/home/featurejob/pitch.png",
@@ -94,23 +89,33 @@ const jobs = [
     headingText: "Sales",
     paragraphOnePart1: "Revolut",
     paragraphOnePart2: "Madrid, Spain",
-    paragraphTwoLine1: "Account Executive roles",
+    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Business Development openings",
     leftButtonText: "View Jobs",
     rightButtonText: "Learn More",
   },
   {
-    imageSrc: "/image/home/featurejob/Dropbox.png",
+    imageSrc: "/image/home/featurejob/pitch.png",
     topButtonText: "Full Time",
-    headingText: "Brand Designer",
-    paragraphOnePart1: "Dropbox",
-    paragraphOnePart2: "San Fransisco, US",
+    headingText: "Sales",
+    paragraphOnePart1: "Revolut",
+    paragraphOnePart2: "Madrid, Spain",
     paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
     paragraphTwoLine2: "Business Development openings",
-    leftButtonText: "gn",
-    rightButtonText: "Business",
+    leftButtonText: "View Jobs",
+    rightButtonText: "Learn More",
   },
-  // Add the rest of your job objects here...
+  {
+    imageSrc: "/image/home/featurejob/pitch.png",
+    topButtonText: "Full Time",
+    headingText: "Sales",
+    paragraphOnePart1: "Revolut",
+    paragraphOnePart2: "Madrid, Spain",
+    paragraphTwoLine1: "Dropbox is looking for Brand Designer to help the team t ...",
+    paragraphTwoLine2: "Business Development openings",
+    leftButtonText: "View Jobs",
+    rightButtonText: "Learn More",
+  },
 ];
 
 
@@ -221,13 +226,12 @@ const LandingPageComponent = () => {
     </p>
   
    
-    <div className="w-full max-w-4xl bg-white shadow-md p-3 pl-0 md:pl-3 mt-5 flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
+    <div className="w-full max-w-4xl bg-white shadow-md p-3 pl-4 md:pl-3 mt-5 flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
    
     <div className="relative flex items-center w-fit md:w-auto">
-      {/* <FontAwesomeIcon
-        icon={faSearch}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5"
-      /> */}
+    
+      <i className="ri-search-line absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5 "
+      ></i>
       <input
         type="text"
         placeholder="job title or keyword"
@@ -237,9 +241,10 @@ const LandingPageComponent = () => {
   
     
     <div className="flex items-center space-x-2 w-full justify-start md:justify-center md:w-auto pl-4">
-      {/* <FontAwesomeIcon icon={faLocationDot} className="text-gray-400 w-6 h-6" />
+    <i className="ri-map-pin-line text-gray-400 w-6 h-6 ri-xl"></i>
       <span className="text-gray-400">Delhi</span>
-      <FontAwesomeIcon icon={faArrowDown} className="text-gray-400 w-6 h-6 ml-4" /> */}
+      <i className="ri-arrow-down-line text-gray-400 w-6 h-6 ml-4 ri-xl"></i>
+   
     </div>
   
     
@@ -260,7 +265,7 @@ const LandingPageComponent = () => {
 
 {/* explore section */}
 
-<div className="overflow-x-auto scroll-hide">
+<div className="overflow-x-auto scroll-hide -mt-15 lg:mt-1 md:mt-1">
 <div className="grid grid-cols-5 gap-4  px-2  lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] "> 
 
 
@@ -293,11 +298,12 @@ const LandingPageComponent = () => {
         </div>
         <div className="flex items-center font-bold text-custom-indigo cursor-pointer pr-4 md:pr-10 lg:pr-20">
           See all jobs{" "}
+          <i className="ri-arrow-right-line w-5 h-5 text-[10px] ri-xl"></i>
           {/* <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5 text-[10px]" /> */}
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 -mt-50 px-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 -mt-65 md:-mt-50  lg:-mt-50 px-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
         {exploreData.map((item, index) => (
           <div
             key={index}
@@ -332,17 +338,17 @@ const LandingPageComponent = () => {
 
       {/* feature */}
        
-      <div className="flex flex-row justify-between items-center px-8 -my-60 lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen bg-gray-100 bg-home">
+      <div className="flex flex-row justify-between items-center px-8 -my-60 -mt-65 md:-mt-50  lg:-mt-50 lg:px-10 lg:mx-10 md:mx-10 md:px-10 h-screen bg-gray-100 bg-home">
         <h3 className="text-xl lg:text-4xl font-semibold">
           Featured <span className="text-blue-600">jobs</span>
         </h3>
         <div className="flex items-center font-bold text-custom-indigo cursor-pointer pr-4 md:pr-10 lg:pr-20">
           See all jobs{" "}
-          {/* <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5 text-[10px]" /> */}
+          <i className="ri-arrow-right-line w-5 h-5 text-[10px] ri-xl"></i>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 px-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 -mt-65 md:-mt-50  lg:-mt-50 gap-8 px-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
         {jobs.map((job, index) => (
           <div key={index} className="bg-home text-center shadow-lg ring-1 ring-gray-200">
             <Feature {...job} />
@@ -366,11 +372,11 @@ const LandingPageComponent = () => {
         </div>
         <div className="flex items-center font-bold text-custom-indigo cursor-pointer pr-4 md:pr-10 lg:pr-20">
           See all jobs{" "}
-          {/* <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5 text-[10px]" /> */}
+          <i className="ri-arrow-right-line w-5 h-5 text-[10px] ri-xl"></i>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-8 pb-15 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 -mt-65 md:-mt-50  lg:-mt-50 gap-8 px-8 pb-15 lg:px-10 lg:mx-10 md:mx-10 md:px-10 rounded shadow">
         {jobsData.map((job, index) => (
           <div key={index} className="bg-home text-center shadow-lg ring-1 ring-gray-200">
             <LatestJobs {...job} />
