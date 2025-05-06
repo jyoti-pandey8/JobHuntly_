@@ -272,7 +272,7 @@ const LandingPageComponent = () => {
         <div className="px-2 py-8 lg:px-10 lg:mx-10 md:mx-10 md:px-10 lg:text-[20px] md:text-[16px] text-[14px] text-gray-400">
           <p>Companies we helped grow.</p>
         </div>
-        <div className="grid grid-cols-5 gap-4  px-2  lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] ">
+        <div className="grid grid-cols-5 gap-4  px-2 py-6 lg:px-10 lg:mx-10 md:mx-10 md:px-10 min-w-[1000px] ">
           <div className="bg-gray-100 rounded-lg  ">
             <Image
               src="/image/home/explore/vodafone.png"
